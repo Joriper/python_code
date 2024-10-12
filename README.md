@@ -1,11 +1,12 @@
 ########### How to Setup project on local machine ########
 
 1. Install Gitbash for windows/10/8
-1. Get clone from github [git clone]
-1. Go to the Directory of project
-2. Run Command ["pip install -r requirements.txt"]
-3. Then Run ["python3 run.py {YOUR LOCAL IP} {YOUR LOCAL PORT} -> python3 run.py 0.0.0.0 8888]
-4. Open the browser and go to the [Example: http://0.0.0.0:8888/docs/]
+2. Get clone from github [git clone]
+3. Go to the Directory of project
+4. In .env file paste your mongo string in MONGO_CONNECTION
+5. Run Command ["pip install -r requirements.txt"]
+6. Then Run ["python3 run.py {YOUR LOCAL IP} {YOUR LOCAL PORT} -> python3 run.py 0.0.0.0 8888]
+7. Open the browser and go to the [Example: http://0.0.0.0:8888/docs/]
 
 ############## API Routes from Items and clocks ###########
 
